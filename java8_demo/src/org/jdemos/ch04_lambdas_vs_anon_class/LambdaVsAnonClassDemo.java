@@ -40,9 +40,10 @@ public class LambdaVsAnonClassDemo {
 		 * (Thus far we have just compiled! More happens when we run...)
 		 * 
 		 * ## As these classes are loaded they take up room in the JVM meta-space.
+		 * 
 		 * ## During execution, your heap is running with 25 instances of the classes you've used.
 		 * 
-		 * ...... so use Lambdas wherever you can!
+		 * So use Lambdas wherever you can.
 		 */
 		
 //		Running a thread with lambda...

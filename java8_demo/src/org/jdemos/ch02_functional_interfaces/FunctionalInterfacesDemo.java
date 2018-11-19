@@ -19,6 +19,11 @@ interface SomeOperationReturningInteger {
 	int doOperation(int a, int b);
 }
 
+/**
+ * Explains Functional references with an example.
+ * 
+ * @author Aditya Karnad
+ */
 public class FunctionalInterfacesDemo {
 	
 	public static void main(String[] args) {
@@ -28,7 +33,7 @@ public class FunctionalInterfacesDemo {
 		
 		System.out.println("Result: " + resultWithLambda);
 		
-		// Let's have a reference to the lambda and try this sgain...
+		// Let's have a reference to the lambda and try this again...
 		SomeOperationReturningInteger opr = (a,b)->(a*4) - (b*2);
 		
 		resultWithLambda = 
@@ -45,4 +50,3 @@ public class FunctionalInterfacesDemo {
 		return opr.doOperation(a, b);
 	}
 }
-

@@ -6,11 +6,11 @@ public class Product{
     private float price;  
     private String productType;
     
-    public Product(Integer id, String name, float price,String productTYpe) {  
+    public Product(Integer id, String name, float price,String productType) {  
         this.id = id;  
         this.name = name;  
         this.price = price;  
-        this.productType=productTYpe;
+        this.productType=productType;
     }
 
 	public Integer getId() {

@@ -1,5 +1,9 @@
 package org.jdemos.ch05_method_refs;
 
+/**
+ * Explains with comments and example why method references are used and how.
+ * @author Aditya Karnad
+ */
 public class MethodReferenceDemo {
 
 	public static void main(String[] args) {

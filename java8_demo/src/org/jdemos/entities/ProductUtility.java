@@ -15,10 +15,10 @@ public class ProductUtility {
         productsList.add(new Product(2,"TV",30000f,"O"));  
         productsList.add(new Product(3,"Sony Handy Cam",28000f,"N"));  
         productsList.add(new Product(4,"Washing Machine",28000f,"O"));  
-        productsList.add(new Product(5,"Ipod",90000f,"N"));
-        productsList.add(new Product(6,"Ipad",25000f,"O"));  
+        productsList.add(new Product(5,"Ipod",9000f,"N"));
+        productsList.add(new Product(6,"Ipad",15000f,"O"));  
         productsList.add(new Product(7,"A.C.",30000f,"N"));  
-        productsList.add(new Product(8,"Fan",28000f,"O"));  
+        productsList.add(new Product(8,"Fan",2600f,"O"));  
         productsList.add(new Product(9,"Table",28000f,"N"));  
         productsList.add(new Product(10,"Shoe Stand",90000f,"O"));
         
