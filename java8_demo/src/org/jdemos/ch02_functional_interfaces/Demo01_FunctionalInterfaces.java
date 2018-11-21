@@ -24,7 +24,7 @@ interface SomeOperationReturningInteger {
  * 
  * @author Aditya Karnad
  */
-public class FunctionalInterfacesDemo {
+public class Demo01_FunctionalInterfaces {
 	
 	public static void main(String[] args) {
 		
@@ -40,8 +40,6 @@ public class FunctionalInterfacesDemo {
 				doWhateverIsPassed_OnNums(20, 50, opr);
 		
 		System.out.println("Result (using functional interface): " + resultWithLambda);
-		
-		
 		
 	}
 	

@@ -8,7 +8,7 @@ package org.jdemos.ch04_lambdas_vs_anon_class;
  * 
  * @author Aditya Karnad
  */
-public class LambdaVsAnonClassDemo {
+public class Demo01_LambdaVsAnonClass {
 	
 	interface LambdaRef {
 		

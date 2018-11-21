@@ -1,10 +1,12 @@
 package org.jdemos.ch05_method_refs;
 
+import java.util.function.UnaryOperator;
+
 /**
  * Explains with comments and example why method references are used and how.
  * @author Aditya Karnad
  */
-public class MethodReferenceDemo {
+public class Demo01_MethodReferencesIntro {
 
 	public static void main(String[] args) {
 		
@@ -24,7 +26,7 @@ public class MethodReferenceDemo {
 		//Lets calculate our restaurant bill by adding service charge of 10% to the bill value...
 		
 		System.out.println("Final bill amount with service charge is: " 
-		+ calculateBillAmount(800, MethodReferenceDemo::serviceChargeCalc));
+		+ calculateBillAmount(800, Demo01_MethodReferencesIntro::serviceChargeCalc));
 	}
 	
 	private static float calculateBillAmount(

@@ -1,6 +1,6 @@
 package org.jdemos.ch01_lambdas;
 
-public class LambdaDemo {
+public class Demo01_LambdaIntro {
 	
 	/*
 	 * While calling methods, we are familiar with passing data arguments to it.

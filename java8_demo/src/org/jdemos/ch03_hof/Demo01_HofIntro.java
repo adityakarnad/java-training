@@ -33,7 +33,7 @@ package org.jdemos.ch03_hof;
  * 
  * @author Aditya Karnad
  */
-public class HofDemo {
+public class Demo01_HofIntro {
 	
 	public static void main(String[] args) {
 		
