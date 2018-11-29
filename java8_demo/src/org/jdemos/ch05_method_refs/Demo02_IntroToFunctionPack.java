@@ -35,8 +35,12 @@ public class Demo02_IntroToFunctionPack {
 		 * 
 		 * https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
 		 * 
-		 * Go through the above page and read-up on these out-of-the-box Functional Interfaces
-		 * before proceeding to the Streams chapter.
+		 * Go through the above page and read-up on these out-of-the-box Functional Interfaces.
+		 
+		 * Study the following Functional Interfaces in detail (preferably in 
+		 * the order mentioned below) before proceeding to the Streams chapter:
+		 * Predicate, Consumer, Bi-Consumer, Supplier, Function, UnaryOperator and BinaryOperator
+		 * 
 		 */
 		
 		//Lets calculate our restaurant bill by adding service charge of 10% to the bill value...

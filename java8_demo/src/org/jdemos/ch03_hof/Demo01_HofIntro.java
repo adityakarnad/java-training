@@ -23,7 +23,7 @@ package org.jdemos.ch03_hof;
  * - first and second are the operands (or inputs)
  * - third argument is the function to be applied to the operands (the action to be taken on the 2 operands)
  * 
- * So we don't need 4 methods, just one method which accepts (in addition to operands) the action (lambda!!!) 
+ * So we don't need 4 methods, just one method which accepts (in addition to operands) the action (lambda) 
  * of "what to do with the operands passed" will work.
  */
 
@@ -51,7 +51,7 @@ public class Demo01_HofIntro {
 }
 
 /**
- * This is a functional 
+ * This is a functional interface.
  * @author Aditya Karnad
  */
 //@FunctionalInterface
