@@ -31,11 +31,14 @@ public class Demo03_InfinityDemo {
 		 * Good news: They realised pretty quickly that they need more limiting options 
 		 * and provided more ways in Java 9.
 		 * 
+		 * **************************************************************************************
+		 * WARNING: CODE BELOW THIS WILL HAVE ERRORS IF YOU DO NOT BUILD WITH JAVA 9+!
+		 * 
 		 * takeWhile() and dropWhile() were introduced in Java 9 - here's how to use takeWhile().
 		 */
 		
 		
-		System.out.println("Mod 2018! stream coming up >>>");
+		System.out.println("Mod 12345! stream coming up >>>");
 		
 		Stream<Long> demoStreamMod2018 = Stream.generate(Demo03_InfinityDemo::demoEventStream);
 		
@@ -56,12 +59,13 @@ public class Demo03_InfinityDemo {
 		 */
 		demoStreamMod2018.takeWhile(millisec -> millisec <= timeLimit).
 			forEach(x -> System.out.println("[MOD:12345 --> " + x + "]"));
+		
 	}
 	
 	/**
 	 * Supplies time stamp milliseconds.
 	 * @return current time in milliseconds every time the millisecond long number 
-	 * is perfectly divisible by 1234.
+	 * is perfectly divisible by 12345.
 	 */
 	public static long demoEventStream() {
 		while(true) {
