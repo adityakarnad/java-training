@@ -5,7 +5,7 @@ public class Demo01_LambdaIntro {
 	/*
 	 * While calling methods, we are familiar with passing data arguments to it.
 	 * But until Java 8 there was no simple way to pass an action / function to it.
-	 * A Lambda expression is a best way to represent a function / action / behavior.
+	 * A Lambda expression is a way to represent a function / action / behavior.
 	 */
 	
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Demo01_LambdaIntro {
 		 * They are also not bound to an object.
 		 */
 		
-		System.out.println("Method 2: Result obtained from executing behavior passed to it: " + result);
+		System.out.println("Method 1: Result obtained from executing data literals passed to it: " + result);
 		
 		
 		
@@ -67,9 +67,9 @@ public class Demo01_LambdaIntro {
 					20, 
 					50, 
 					(int a,int b) 				//(a,b) = operands
-					-> 							//-> passed to
+					-> 					//-> passed to
 					{
-						return (a*4) - (b*2);	//method body providing definition (using operands)
+						return (a*4) - (b*2);		//method body providing definition / implementation using operands
 					}
 				);
 		
@@ -80,10 +80,10 @@ public class Demo01_LambdaIntro {
 		int resultWithLambda02 = doWhateverIsPassed_OnNums(
 				20, 
 				50, 
-				(a,b) 						//(a,b) = operands
-				-> 							//-> passed to
+				(a,b) 			//(a,b) = operands
+				-> 			//-> passed to
 				{
-					return (a*4) - (b*2);	//method body providing definition (using operands)
+					return (a*4) - (b*2);	//method body providing definition / implementation using operands
 				}
 			);
 		
@@ -94,8 +94,8 @@ public class Demo01_LambdaIntro {
 		int resultWithLambda03 = doWhateverIsPassed_OnNums(
 				20, 
 				50, 
-				(a,b) 				//(a,b) = operands
-				-> 					//-> passed to
+				(a,b) 			//(a,b) = operands
+				-> 			//-> passed to
 				(a*4) - (b*2)		//method body 	
 			);
 		
